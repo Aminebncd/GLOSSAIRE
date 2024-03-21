@@ -15,22 +15,56 @@
 
 ## Général
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
-2.	Qu’est-ce qu’un algorithme ?  
-3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
-4.	Qu’est-ce que la portée d’une variable ?
-5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
-6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
-7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
-8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
-9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
-10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
-11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
-12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
-13.	Quelle est la différence entre les instructions « require » et « include » en PHP
-14.	Comment effectuer une redirection en PHP ?
-15.	Définir la partie « front-end » et « back-end » d’une application
-16.	Définir le contrôle de version ? Qu’est-ce que Git ?
-17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+      Réponse : pour exécuter un script PHP, chez ELAN nous utilisons LARAGON mais d’autres environnements comme XAMPP, WampServer ou Vagrant.
+  	
+3.	Qu’est-ce qu’un algorithme ?
+      Réponse : un algorithme est une suite d’instructions ayant pour but d’obtenir un résultat bien précis à partir de données que l’on lui aura fourni au préalable.
+  	
+5.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
+      Réponse : une variable (caractérisée par le symbole $ en PHP) est un espace associant un nom à une valeur dans lequel on pourra stocker une donnée dans le but d’y faire appel plus tard dans le code.
+  	
+7.	Qu’est-ce que la portée d’une variable ?
+      Réponse : en fonction de si elle est locale, globale ou superglobale elle aura une portée de, respectivement, la fonction dans laquelle elle est declarée, le fichier tout entier ou l’ensemble de fichiers dans lesquels on travaille.
+  	
+9.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
+      Réponse : comme son nom l’indique, une constante est une donnée dont la valeur restera inchangée à laquelle on peut faire appel partout dans notre code
+  	
+11.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation.
+      Réponse : une superglobale est une variable native (pas besoin de la déclarer) à l’environnement dans lequel on travaille à laquelle on peut faire appel à travers tous nos fichiers. Il en existe 9 en PHP, parmi elles existe par exemple la variable $_GET récupère les données transmises en URL (query string).
+   	
+13.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur).
+      Réponse : une variable peut-être de type string (chaine de caractère : ‘test1212’), int (chiffre : 12345), float (chiffre à virgule : 1.256654), bool (true/false), array (tableau[]) et null si rien ne lui est attribué.
+   	
+15.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+      Réponse : Il en existe deux, les tableaux associatifs (key => value) et les tableaux indexés sans clé ( ‘val1’, ‘val2’, ‘val3’…).
+   	
+17.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
+      Réponse : Il existe deux types de structures de contrôle, les conditions (if/else switch) qui, comme leur nom l’indique, vérifient une condition avant d’exécuter des instructions (if ($a < 1) { $a++ ;}  par exemple) et les boucles (for, while, do-while, foreach) qui, tant qu’une condition est respectée, vont répéter des instructions jusqu’à ce qu’elle ne soit plus valide (for ($i = 0 ; $i<10 ; $i++) {echo $i ;} par exemple)
+   	
+19.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+      Réponse : c’est la fonction strlen() ;
+   	
+21.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
+      Réponse : Une session permet de stocker des données entre plusieurs accès, chaque visiteur accédant à une page web se voit attribuer un id de session pouvant être stocké dans un cookie. La fonction qui permet de démarrer une session en PHP est : session_start()
+   	
+23.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
+      Réponse : Un cookie est un petit fichier texte contenant une quantité limitée de données, ils sont stockés coté client et peuvent être supprimé quand ils le souhaitent. Ils contiennent généralement des données de session permettant de faciliter la vie des utilisateurs comme des identifiants par exemple.
+   	 
+25.	Quelle est la différence entre les instructions « require » et « include » en PHP
+      Réponse : si le fichier est manquant, require rendra une erreur (E_COMPILE_ERROR) et stoppera le script, include ne rendra qu’un avertissement (E_WARNING) et exécutera quand même le script.
+   	
+27.	Comment effectuer une redirection en PHP ?
+      Réponse : Avec la fonction header(); (par exemple header(‘Location : monScript.php’); )
+   	
+29.	Définir la partie « front-end » et « back-end » d’une application
+      Réponse : le Front-end est toute la partie ‘client’ qui apparaitra à l’utilisateur, le texte, le style, les images, les interactions physiques etc... le Back-end est toute la partie ‘serveur’ qui se passe en coulisse et n’apparait pas sur l’ordinateur de l’utilisateur, les traitements, la base de donnée, etc...
+   	
+31.	Définir le contrôle de version ? Qu’est-ce que Git ?
+      Réponse : Le contrôle de version (ou versionning en anglais) représente le suivi et la gestion des changements apportés à une application. Il se gère avec des outils de versionnage appelés CVS, le plus populaire aujourd’hui s’appelle GIT.
+   	
+33.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+    Réponse : Un CMS (Content Management System) est un programme permettant la création de sites web, les plus rependus sont Wordpress, Shoppify, Webflow et plein d’autres.
+   	
 
 ## Front-end
 18.	Définir HTML
