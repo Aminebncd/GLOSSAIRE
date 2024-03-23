@@ -71,59 +71,60 @@
 ## Front-end
 
 
-1.	Définir HTML  
-      Réponse : HTML signifie « HyperText Markup Language » qu'on peut traduire par « langage de balises pour l'hypertexte ». Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure.
-  	
-2.	Définir CSS  
-      Réponse : CSS est l’acronyme de « Cascading Style Sheets » ce qui signifie « feuille de style en cascade ». Le CSS correspond à un langage informatique permettant de mettre en forme des pages web.
-  	
-3.	Définir Javascript  
-      Réponse : Javascript est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique sur une page web, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser.
-  	 
-4.	Définir JSON. Dans quel contexte ce format est-il utilisé ?  
-      Réponse : Le JavaScript Object Notation (JSON) est un format standard utilisé pour représenter des données structurées de façon semblable aux objets Javascript. Il est habituellement utilisé pour structurer et transmettre des données sur des sites web (par exemple, envoyer des données depuis un serveur vers un client afin de les afficher sur une page web ou vice versa).
-  	
-5.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?  
-      Réponse :  Il existe aujourd'hui plusieurs solutions qui permettent d'éxécuter du JavaScript côté serveur :  
-- NodeJS initialement lancé en 2013 est la solution la plus répandue à l'heure actuelle.   
-- Deno est une tentative du créateur de NodeJS de repartir sur de nouvelle base. Même si la technologie est intéréssante elle a du mal à obtenir suffisamment de 	traction (principalement à cause de son incompatibilité avec l'écosystème NodeJS déjà présent).   
-- Bun est une initiative toute jeune (pas encore stable) qui se veut être une alternative à NodeJS en promettant notamment d'être compatible avec l'existant.
+1. Définir HTML  
+   Réponse : HTML signifie « HyperText Markup Language » qu'on peut traduire par « langage de balises pour l'hypertexte ». Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure.
 
-6.	Qu’est-ce qu’un sélecteur CSS ?  
-    Réponse : Sélecteur CSS définit l’élément sur lequel s’applique le style voulu (type, identifiant, classe...).
-  	 
-7.	Quelle balise HTML permet de créer un lien hypertexte ?  
-      Réponse : C’est la balise anchor (<a href=”monLien”></a>).
-  	
-8.	Qu’est-ce qu’une requête AJAX ?  
-      Réponse : L'ajax est une technique de développement web qui permet d'actualiser une partie d'une page sans la recharger entièrement. On évite ainsi le clignotement désagréable, les interactions avec l'utilisateur sont plus fluides.
+2. Définir CSS  
+   Réponse : CSS est l’acronyme de « Cascading Style Sheets » ce qui signifie « feuille de style en cascade ». Le CSS correspond à un langage informatique permettant de mettre en forme des pages web.
 
-9.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
-      Réponse : pour une classe “.maClasse”, pour un id “#monId”.
-   	
-10.	Définir le responsive design
-      Réponse : un design dit “responsive” s’adapte automatiquement aux changements de taille d’écran. 
-   	
-11.	Qu’est-ce que le templating ?
-      Réponse : c’est pré-créer un modèle, un moule dans lequel on intègrera toutes nos pages web afin de ne pas avoir à re définir sur chaque page les éléments redondants (head etc…).
-   	
-12.	Qu’est-ce qu’une fonction anonyme en Javascript ?
-      Réponse : Une fonction anonyme n’a, comme son nom l’indique, pas de nom.
-   	
-13.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
-      Réponse : c’est Array push().
-   	
-14.	Qu’est-ce qu’un « media query » ?
-      Réponse : Elles permettent de modifier l’apparence d’un site ou d’une application en fonction du type d’appareil et de ses caractéristiques (la taille d'ecran par exemple).
-   	
-15.	Qu’est-ce qu’un pseudo élément en CSS ?
-      Réponse : c’est un mot-clé ajouté à un sélecteur qui permet de mettre en forme certaines parties de l’élément ciblé par la règle.
-   	
-16.	Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
-      Réponse : c’est un framework de front-end gratuit qui permet de mettre ene un site/une application plus « facilement », l’alternative la plus connue s’appelle tailwind.
-   	
-17.	Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
-      Réponse : On peut utiliser la methode POST (les données seron envoyées dans le corps de la requête http) et GET (les données seront envoyées à travers l’url). 
+3. Définir Javascript  
+   Réponse : Javascript est un langage de programmation qui permet de créer du contenu mis à jour de façon dynamique sur une page web, de contrôler le contenu multimédia, d'animer des images, et tout ce à quoi on peut penser.
+
+4. Définir JSON. Dans quel contexte ce format est-il utilisé ?  
+   Réponse : Le JavaScript Object Notation (JSON) est un format standard utilisé pour représenter des données structurées de façon semblable aux objets Javascript. Il est habituellement utilisé pour structurer et transmettre des données sur des sites web (par exemple, envoyer des données depuis un serveur vers un client afin de les afficher sur une page web ou vice versa).
+
+5. Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?  
+   Réponse :  Il existe aujourd'hui plusieurs solutions qui permettent d'exécuter du JavaScript côté serveur :
+
+   - NodeJS initialement lancé en 2013 est la solution la plus répandue à l'heure actuelle.
+   - Deno est une tentative du créateur de NodeJS de repartir sur de nouvelles bases. Même si la technologie est intéressante, elle a du mal à obtenir suffisamment de traction (principalement à cause de son incompatibilité avec l'écosystème NodeJS déjà présent).
+   - Bun est une initiative toute jeune (pas encore stable) qui se veut être une alternative à NodeJS en promettant notamment d'être compatible avec l'existant.
+
+6. Qu’est-ce qu’un sélecteur CSS ?  
+   Réponse : Sélecteur CSS définit l’élément sur lequel s’applique le style voulu (type, identifiant, classe...).
+
+7. Quelle balise HTML permet de créer un lien hypertexte ?  
+   Réponse : C’est la balise anchor (<a href=”monLien”></a>).
+
+8. Qu’est-ce qu’une requête AJAX ?  
+   Réponse : L'ajax est une technique de développement web qui permet d'actualiser une partie d'une page sans la recharger entièrement. On évite ainsi le clignotement désagréable, les interactions avec l'utilisateur sont plus fluides.
+
+9. Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?  
+   Réponse : pour une classe “.maClasse”, pour un id “#monId”.
+
+10. Définir le responsive design  
+    Réponse : un design dit “responsive” s’adapte automatiquement aux changements de taille d’écran.
+
+11. Qu’est-ce que le templating ?  
+    Réponse : c’est pré-créer un modèle, un moule dans lequel on intégrera toutes nos pages web afin de ne pas avoir à re définir sur chaque page les éléments redondants (head etc…).
+
+12. Qu’est-ce qu’une fonction anonyme en Javascript ?  
+    Réponse : Une fonction anonyme n’a, comme son nom l’indique, pas de nom.
+
+13. Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?  
+    Réponse : c’est Array push().
+
+14. Qu’est-ce qu’un « media query » ?  
+    Réponse : Elles permettent de modifier l’apparence d’un site ou d’une application en fonction du type d’appareil et de ses caractéristiques (la taille d'écran par exemple).
+
+15. Qu’est-ce qu’un pseudo-élément en CSS ?  
+    Réponse : c’est un mot-clé ajouté à un sélecteur qui permet de mettre en forme certaines parties de l’élément ciblé par la règle.
+
+16. Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalents  
+    Réponse : c’est un framework de front-end gratuit qui permet de mettre en un site/une application plus « facilement », l’alternative la plus connue s’appelle Tailwind.
+
+17. Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes  
+    Réponse : On peut utiliser la méthode POST (les données seront envoyées dans le corps de la requête HTTP) et GET (les données seront envoyées à travers l’URL).
 
 ## UX UI
 35.	Quelle est la différence entre UX Design et UI Design ?
