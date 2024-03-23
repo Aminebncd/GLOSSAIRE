@@ -40,31 +40,31 @@
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?  
       Réponse : Il en existe deux, les tableaux associatifs (key => value) et les tableaux indexés sans clé ( ‘val1’, ‘val2’, ‘val3’…).
    	
-9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles  
+9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles.  
       Réponse : Il existe deux types de structures de contrôle, les conditions (if/else switch) qui, comme leur nom l’indique, vérifient une condition avant d’exécuter des instructions (if ($a < 1) { $a++ ;}  par exemple) et les boucles (for, while, do-while, foreach) qui, tant qu’une condition est respectée, vont répéter des instructions jusqu’à ce qu’elle ne soit plus valide (for ($i = 0 ; $i<10 ; $i++) {echo $i ;} par exemple)
    	
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?  
       Réponse : c’est la fonction strlen() ;
    	
-11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP  
+11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP.  
       Réponse : Une session permet de stocker des données entre plusieurs accès, chaque visiteur accédant à une page web se voit attribuer un id de session pouvant être stocké dans un cookie. La fonction qui permet de démarrer une session en PHP est : session_start()
    	
-12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP  
+12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP.  
       Réponse : Un cookie est un petit fichier texte contenant une quantité limitée de données, ils sont stockés coté client et peuvent être supprimé quand ils le souhaitent. Ils contiennent généralement des données de session permettant de faciliter la vie des utilisateurs comme des identifiants par exemple.
    	 
-13.	Quelle est la différence entre les instructions « require » et « include » en PHP  
+13.	Quelle est la différence entre les instructions « require » et « include » en PHP.  
       Réponse : si le fichier est manquant, require rendra une erreur (E_COMPILE_ERROR) et stoppera le script, include ne rendra qu’un avertissement (E_WARNING) et exécutera quand même le script.
    	
-14.	Comment effectuer une redirection en PHP ?  
+14.	Comment effectuer une redirection en PHP?  
       Réponse : Avec la fonction header(); (par exemple header(‘Location : monScript.php’); )
    	
-15.	Définir la partie « front-end » et « back-end » d’une application  
+15.	Définir la partie « front-end » et « back-end » d’une application.   
       Réponse : le Front-end est toute la partie ‘client’ qui apparaitra à l’utilisateur, le texte, le style, les images, les interactions physiques etc... le Back-end est toute la partie ‘serveur’ qui se passe en coulisse et n’apparait pas sur l’ordinateur de l’utilisateur, les traitements, la base de donnée, etc...
    	
-16.	Définir le contrôle de version ? Qu’est-ce que Git ?  
+16.	Définir le contrôle de version ? Qu’est-ce que Git?  
       Réponse : Le contrôle de version (ou versionning en anglais) représente le suivi et la gestion des changements apportés à une application. Il se gère avec des outils de versionnage appelés CVS, le plus populaire aujourd’hui s’appelle GIT.
    	
-17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples  
+17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples.  
     Réponse : Un CMS (Content Management System) est un programme permettant la création de sites web, les plus rependus sont Wordpress, Shoppify, Webflow et plein d’autres.
    	
 
