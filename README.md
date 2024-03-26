@@ -15,7 +15,6 @@
 
 ## Général
 
-
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte  
       Réponse : pour exécuter un script PHP, chez ELAN nous utilisons LARAGON mais d’autres environnements comme XAMPP, WampServer ou Vagrant.
   	
@@ -69,7 +68,6 @@
    	
 
 ## Front-end
-
 
 1. Définir HTML  
    Réponse : HTML signifie « HyperText Markup Language » qu'on peut traduire par « langage de balises pour l'hypertexte ». Il est utilisé afin de créer et de représenter le contenu d'une page web et sa structure.
@@ -126,33 +124,51 @@
 17. Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes  
     Réponse : On peut utiliser la méthode POST (les données seront envoyées dans le corps de la requête HTTP) et GET (les données seront envoyées à travers l’URL).
 
+
 ## UX UI
-35.	Quelle est la différence entre UX Design et UI Design ?
-36.	Qu’est-ce qu’un wireframe ? 
-37.	Qu’est-ce qu’un prototype ? 
-38.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
-39.	Qu’est-ce que l’accessibilité en UX Design ? 
-40.	Qu’est-ce qu’une grille de mise en page ?
-41.	Qu’est-ce que la notion d’affordance en UX Design ?
-42.	Qu’est-ce qu’un « mobile first design » ?
+
+1.	Quelle est la différence entre UX Design et UI Design ?  
+      Réponse : L’UX c’est gérer l’experience utilisateur, la rendre intuitive, compatible avec tous les supports et facile d’utilisation. L’UI c’est travailler l’interface, l’information transmise, la clarté et la visibilité d’une application.
+   	
+2.	Qu’est-ce qu’un wireframe ?
+      Réponse : C’est une maquette très simpliste qui définit la structure d’un site
+   	
+3.	Qu’est-ce qu’un prototype ?
+      Réponse : C’est une maquette donnant un rendu quasi-fini du site/de l’application telle qu’on la veut.
+   	 
+4.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
+      Réponse : La hiérarchie visuelle d'une page permet à l'utilisateur de savoir où concentrer son attention, son regard. Cette hiérarchie ordonne l'information, et permet de guider l'utilisateur lors de son parcours.
+   	
+5.	Qu’est-ce que l’accessibilité en UX Design ?
+      Réponse : L’accessibilité numérique, c’est rendre les produits numériques accessibles en situation de handicap.
+   	
+6.	Qu’est-ce qu’une grille de mise en page ?
+      Réponse : La grille est un élément déterminant de la mise en page, permettant de structurer le format.
+   	
+7.	Qu’est-ce que la notion d’affordance en UX Design ?
+      Réponse : L’affordance est la capacité d’un objet ou d’un système à évoquer son utilisation, sa fonction, elle permet de rendre l’utilisation d’un objet ou d’un service « intuitive ».
+   	
+8.	Qu’est-ce qu’un « mobile first design » ?
+      Réponse : C’est une stratégie de conception de réalisation de sites web en commençant par les versions mobiles afin d’optimiser au mieux le développement.
+   	
 IV. Programmation orientée objet (POO)
-43.	Donner une définition de la programmation orientée objet 
-44.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
-45.	Qu’est-ce qu’un objet ?
-46.	Définir la notion de propriété / attribut / méthode
-47.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
-48.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
-49.	Qu’est-ce que l’encapsulation ?
-50.	Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
-51.	Définir l’opérateur de résolution de portée
-52.	Définir une méthode / propriété statique
-53.	Définir le polymorphisme en POO
-54.	Définir une méthode / classe abstraite ?
-55.	Définir le chaînage de méthodes
-56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
-57.	Qu’est-ce qu’un « autoload » ?
-58.	Comment appelle-t-on en français les « getters » et les « setters » ?
-59.	Qu’est-ce que la sérialisation en PHP ? 
+51.	Donner une définition de la programmation orientée objet 
+52.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
+53.	Qu’est-ce qu’un objet ?
+54.	Définir la notion de propriété / attribut / méthode
+55.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
+56.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
+57.	Qu’est-ce que l’encapsulation ?
+58.	Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
+59.	Définir l’opérateur de résolution de portée
+60.	Définir une méthode / propriété statique
+61.	Définir le polymorphisme en POO
+62.	Définir une méthode / classe abstraite ?
+63.	Définir le chaînage de méthodes
+64.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
+65.	Qu’est-ce qu’un « autoload » ?
+66.	Comment appelle-t-on en français les « getters » et les « setters » ?
+67.	Qu’est-ce que la sérialisation en PHP ? 
 
 ## Architecture 
 60.	Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence
