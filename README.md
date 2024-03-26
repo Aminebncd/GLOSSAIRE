@@ -130,25 +130,25 @@
 1.	Quelle est la différence entre UX Design et UI Design ?  
       Réponse : L’UX c’est gérer l’experience utilisateur, la rendre intuitive, compatible avec tous les supports et facile d’utilisation. L’UI c’est travailler l’interface, l’information transmise, la clarté et la visibilité d’une application.
    	
-2.	Qu’est-ce qu’un wireframe ?
+2.	Qu’est-ce qu’un wireframe ?  
       Réponse : C’est une maquette très simpliste qui définit la structure d’un site
    	
-3.	Qu’est-ce qu’un prototype ?
+3.	Qu’est-ce qu’un prototype ?  
       Réponse : C’est une maquette donnant un rendu quasi-fini du site/de l’application telle qu’on la veut.
    	 
-4.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
+4.	Qu’est-ce que la hiérarchie visuelle en UI Design ?  
       Réponse : La hiérarchie visuelle d'une page permet à l'utilisateur de savoir où concentrer son attention, son regard. Cette hiérarchie ordonne l'information, et permet de guider l'utilisateur lors de son parcours.
    	
-5.	Qu’est-ce que l’accessibilité en UX Design ?
+5.	Qu’est-ce que l’accessibilité en UX Design ?  
       Réponse : L’accessibilité numérique, c’est rendre les produits numériques accessibles en situation de handicap.
    	
-6.	Qu’est-ce qu’une grille de mise en page ?
+6.	Qu’est-ce qu’une grille de mise en page ?  
       Réponse : La grille est un élément déterminant de la mise en page, permettant de structurer le format.
    	
-7.	Qu’est-ce que la notion d’affordance en UX Design ?
+7.	Qu’est-ce que la notion d’affordance en UX Design ?  
       Réponse : L’affordance est la capacité d’un objet ou d’un système à évoquer son utilisation, sa fonction, elle permet de rendre l’utilisation d’un objet ou d’un service « intuitive ».
    	
-8.	Qu’est-ce qu’un « mobile first design » ?
+8.	Qu’est-ce qu’un « mobile first design » ?  
       Réponse : C’est une stratégie de conception de réalisation de sites web en commençant par les versions mobiles afin d’optimiser au mieux le développement.
    	
 ## Programmation orientée objet (POO)
