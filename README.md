@@ -151,7 +151,8 @@
 8.	Qu’est-ce qu’un « mobile first design » ?
       Réponse : C’est une stratégie de conception de réalisation de sites web en commençant par les versions mobiles afin d’optimiser au mieux le développement.
    	
-IV. Programmation orientée objet (POO)
+## Programmation orientée objet (POO)
+
 51.	Donner une définition de la programmation orientée objet 
 52.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
 53.	Qu’est-ce qu’un objet ?
