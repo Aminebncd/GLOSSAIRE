@@ -153,7 +153,8 @@
    	
 ## Programmation orientée objet (POO)
 
-51.	Donner une définition de la programmation orientée objet 
+51.	Donner une définition de la programmation orientée objet  
+    Reponse : 
 52.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
 53.	Qu’est-ce qu’un objet ?
 54.	Définir la notion de propriété / attribut / méthode
