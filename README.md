@@ -4,6 +4,7 @@
 - [Général](#général)
 - [Front-end](#front-end)
 - [UX / UI](#ux-ui)
+- [Programmation orientée objet (POO)](#POO)
 - [Architecture](#architecture)
 - [Modélisation / Base de données](#modélisation---base-de-données)
 - [Symfony](#symfony)
@@ -157,54 +158,54 @@
 1.	Donner une définition de la programmation orientée objet  
     Reponse : Approche de programmation basée sur la création de classes et d'objets qui interagissent entre eux pour réaliser des fonctionnalités. La POO vise à organiser le code de manière modulaire et à favoriser la réutilisabilité et la maintenance.
    	
-2.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
+2.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?  
       Reponse : Modèle ou plan de construction permettant de créer des objets. Elle est déclarée avec le mot-clé class suivi du nom de la classe.
    	
-3.	Qu’est-ce qu’un objet ?
+3.	Qu’est-ce qu’un objet ?  
       Reponse :  Instance concrète d'une classe. Un objet possède des attributs (propriétés) et des méthodes (fonctions) spécifiques à sa classe.
    	
-4.	Définir la notion de propriété / attribut / méthode
+4.	Définir la notion de propriété / attribut / méthode  
       Reponse : -Propriété -> Variable appartenant à un objet.  
                 -Attribut ->  Synonyme de propriété, représente une caractéristique de l'objet.  
                 -Méthode -> Fonction associée à une classe, permet de définir le comportement des objets de cette classe.  
    	
-5.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
+5.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité  
       Reponse :  Contrôle l'accès aux propriétés et méthodes d'une classe. On peut la définir en temps que public, protected et private.
    	
-6.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
+6.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?  
       Reponse :  Le constructeur, défini dans une classe avec la méthode __construct().
    	
-7.	Qu’est-ce que l’encapsulation ?
+7.	Qu’est-ce que l’encapsulation ?  
       Reponse :  Principe de la POO qui empêche de modifier ou d’accéder aux objets par un autre moyen que les méthodes proposées, et de ce fait, permet de garantir l’intégrité des objets.
    	
-8.	Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
+8.	Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple  
       Reponse : Permet à une classe enfant d'hériter des propriétés et méthodes d'une classe parente. Le concept clé est l'héritage. Exemple : class Voiture electrique extends Voiture.
    	
-9.	Définir l’opérateur de résolution de portée
+9.	Définir l’opérateur de résolution de portée  
       Reponse : Utilisé pour accéder aux éléments d'une classe. En PHP, l'opérateur est -> pour accéder à une propriété ou une méthode d'un objet.
    	
-10.	Définir une méthode / propriété statique
+10.	Définir une méthode / propriété statique  
       Reponse :  Une méthode ou une propriété statique en programmation orientée objet est une entité qui appartient à la classe elle-même plutôt qu'à une instance spécifique de cette classe. Cela signifie que ces méthodes et propriétés sont partagées entre toutes les instances de la classe et peuvent être appelées sans avoir besoin d'instancier la classe.
    	
-11.	Définir le polymorphisme en POO
+11.	Définir le polymorphisme en POO  
       Reponse : Le polymorphisme en programmation orientée objet fait référence à la capacité d'un objet à se comporter de différentes manières en fonction du contexte dans lequel il est utilisé. Cela signifie qu'un même nom de méthode peut avoir des implémentations différentes selon la classe à laquelle appartient l'objet qui l'appelle.
    	
-12.	Définir une méthode / classe abstraite ?
+12.	Définir une méthode / classe abstraite ?  
       Reponse : Une méthode ou une classe abstraite en programmation orientée objet (POO) est une entité déclarée dans une classe parente mais qui n'est pas implémentée dans cette classe. Au lieu de cela, les classes filles sont responsables d'implémenter ces méthodes ou de définir les détails de la classe abstraite.
    	
-13.	Définir le chaînage de méthodes
+13.	Définir le chaînage de méthodes  
       Reponse : Technique permettant d'appeler plusieurs méthodes successivement sur le même objet en utilisant la même ligne de code. (par exemple $this->getUser()->getId() )
    	
-14.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
+14.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »  
       Reponse :  La méthode __toString() est une méthode spéciale en PHP qui est automatiquement appelée lorsqu'un objet est utilisé dans un contexte de chaîne de caractères, tel que lorsqu'il est passé à la fonction echo ou lorsqu'il est concaténé avec une chaîne de caractères.
    	
-15.	Qu’est-ce qu’un « autoload » ?
+15.	Qu’est-ce qu’un « autoload » ?  
       Reponse : L'autoload est un mécanisme en PHP permettant de charger automatiquement les classes lorsqu'elles sont utilisées pour la première fois dans un script PHP. Au lieu de charger manuellement chaque classe avec la fonction require ou include chaque fois qu'elles sont nécessaires, l'autoload détecte automatiquement quand une classe est utilisée et charge son fichier correspondant, generalement avec la fonction 'spl_autoload_register()'.
    	
-16.	Comment appelle-t-on en français les « getters » et les « setters » ?
+16.	Comment appelle-t-on en français les « getters » et les « setters » ?  
       Reponse :  En français, on les appelle respectivement "accesseurs" et "mutateurs". Ce sont des méthodes permettant de récupérer et de modifier les valeurs des propriétés privées d'une classe.
    	
-17.	Qu’est-ce que la sérialisation en PHP ?
+17.	Qu’est-ce que la sérialisation en PHP ?  
       Reponse : La sérialisation en PHP est un processus qui consiste à convertir des objets PHP en une forme pouvant être stockée ou transmise, généralement dans le but de persister des données ou de les échanger avec d'autres systèmes. La sérialisation permet de transformer des données complexes, telles que des objets ou des tableaux, en une séquence de caractères qui peut être écrite dans un fichier ou envoyée sur un réseau.
    	
 
