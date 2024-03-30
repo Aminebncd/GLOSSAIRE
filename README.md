@@ -210,13 +210,26 @@
    	
 
 ## Architecture 
-60.	Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence
-61.	Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern
-62.	Qu’est-ce que l’architecture MVC ?
+60.	Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence  
+      Reponse :
+
+61.	Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern  
+      Reponse :
+
+62.	Qu’est-ce que l’architecture MVC ?  
+      Reponse :
+
 63.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
-64.	Quels sont les avantages de l’architecture MVC ?
-65.	Existe-t-il des variantes à l’architecture MVC ?
+      Reponse :
+
+64.	Quels sont les avantages de l’architecture MVC ?   
+      Reponse :
+
+65.	Existe-t-il des variantes à l’architecture MVC ?  
+      Reponse :
+
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST
+      Reponse :
 
 ## Modélisation - Base de données
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
