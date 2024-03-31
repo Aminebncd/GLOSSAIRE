@@ -210,26 +210,43 @@
    	
 
 ## Architecture 
-60.	Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence  
-      Reponse :
 
-61.	Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern  
-      Reponse :
+1.	Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence  
+      Reponse : L'architecture client/serveur est un modèle où les tâches sont partagées entre des ordinateurs appelés clients et des ordinateurs appelés serveurs. Les clients envoient des demandes aux serveurs, qui répondent en conséquence.
 
-62.	Qu’est-ce que l’architecture MVC ?  
-      Reponse :
+Pour interroger le serveur, on utilise souvent des requêtes HTTP. HTTPS est une version sécurisée de HTTP, qui chiffre les données pour une communication plus sécurisée.
 
-63.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
-      Reponse :
+2.	Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern  
+      Reponse : Un design pattern est une solution éprouvée à un problème de conception logicielle courant. Voici trois exemples :
 
-64.	Quels sont les avantages de l’architecture MVC ?   
-      Reponse :
+Singleton : Garantit qu'une classe a une seule instance.
+Factory Method : Définit une interface pour créer des objets, laissant aux sous-classes le choix des classes concrètes à instancier.
+Observer : Établit une relation un-à-plusieurs entre objets, permettant à certains objets d'être notifiés automatiquement des changements survenus dans d'autres objets.
 
-65.	Existe-t-il des variantes à l’architecture MVC ?  
-      Reponse :
+3.	Qu’est-ce que l’architecture MVC ?  
+      Reponse : L'architecture MVC divise une application en trois parties principales :
 
-66.	Qu’est-ce qu’une API ? Définir l’architecture REST
-      Reponse :
+Modèle : Gère les données et les règles métier.
+Vue : Affiche l'interface utilisateur.
+Contrôleur : Traite les demandes des utilisateurs et coordonne les interactions entre le modèle et la vue.
+
+4.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
+      Reponse : Dans le design pattern MVC :
+
+Modèle (Model) : Il représente les données de l'application ainsi que les règles métier qui s'appliquent à ces données. Le modèle gère la logique sous-jacente de l'application, y compris la manipulation des données, la validation et la logique métier.
+
+Vue (View) : Elle est responsable de l'affichage des données au utilisateur. La vue récupère les données du modèle et les présente de manière appropriée à l'utilisateur. Elle ne manipule pas les données, mais se concentre uniquement sur leur affichage.
+
+Contrôleur (Controller) : Il agit comme un intermédiaire entre la vue et le modèle. Il reçoit les demandes de l'utilisateur, traite ces demandes en interagissant avec le modèle approprié et met à jour la vue en conséquence. Le contrôleur gère également la logique de routage, déterminant quelle action doit être effectuée en fonction des demandes de l'utilisateur.
+
+5.	Quels sont les avantages de l’architecture MVC ?   
+      Reponse : Les avantages de l'architecture MVC sont la séparation claire des responsabilités, la modularité du code, la facilité de maintenance, la réutilisabilité du code, l'évolutivité de l'application et la facilitation de la collaboration entre développeurs.
+
+6.	Existe-t-il des variantes à l’architecture MVC ?  
+      Reponse : Oui, il existe des variantes à l'architecture MVC, telles que MVVM (Model-View-ViewModel), MVP (Model-View-Presenter), et MMVC (Multicore Model-View-Controller). Chacune de ces variantes adapte le modèle de base de MVC pour répondre à des besoins spécifiques ou des contextes particuliers de développement logiciel.
+
+7.	Qu’est-ce qu’une API ? Définir l’architecture REST
+      Reponse : Une API (Interface de Programmation d'Application) permet à différents logiciels de communiquer entre eux. L'architecture REST (Representational State Transfer) est un style d'architecture qui utilise HTTP pour accéder et manipuler des ressources sur le web, en suivant des principes comme l'utilisation de ressources identifiées par des URI et l'utilisation d'opérations standard comme GET, POST, PUT et DELETE.
 
 ## Modélisation - Base de données
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
