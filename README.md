@@ -230,7 +230,7 @@ Modèle : Gère les données et les règles métier.
 Vue : Affiche l'interface utilisateur.
 Contrôleur : Traite les demandes des utilisateurs et coordonne les interactions entre le modèle et la vue.
 
-4.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
+4.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?  
       Reponse : Dans le design pattern MVC :
 
 Modèle (Model) : Il représente les données de l'application ainsi que les règles métier qui s'appliquent à ces données. Le modèle gère la logique sous-jacente de l'application, y compris la manipulation des données, la validation et la logique métier.
@@ -245,7 +245,7 @@ Contrôleur (Controller) : Il agit comme un intermédiaire entre la vue et le mo
 6.	Existe-t-il des variantes à l’architecture MVC ?  
       Reponse : Oui, il existe des variantes à l'architecture MVC, telles que MVVM (Model-View-ViewModel), MVP (Model-View-Presenter), et MMVC (Multicore Model-View-Controller). Chacune de ces variantes adapte le modèle de base de MVC pour répondre à des besoins spécifiques ou des contextes particuliers de développement logiciel.
 
-7.	Qu’est-ce qu’une API ? Définir l’architecture REST
+7.	Qu’est-ce qu’une API ? Définir l’architecture REST  
       Reponse : Une API (Interface de Programmation d'Application) permet à différents logiciels de communiquer entre eux. L'architecture REST (Representational State Transfer) est un style d'architecture qui utilise HTTP pour accéder et manipuler des ressources sur le web, en suivant des principes comme l'utilisation de ressources identifiées par des URI et l'utilisation d'opérations standard comme GET, POST, PUT et DELETE.
 
 ## Modélisation - Base de données
