@@ -14,6 +14,7 @@
 - [Gestion de projets / DevOps](#gestion-de-projets---devops)
 - [English](#english)
 
+
 ## Général
 
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte  
@@ -251,30 +252,45 @@ Contrôleur (Controller) : Il agit comme un intermédiaire entre la vue et le mo
 ## Modélisation - Base de données
 
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
+
 68.	Quelles sont les 3 étapes principales de la méthode Merise ? 
 a.	Analyse, conception et réalisation
 b.	Planification, exécution et contrôle
 c.	Création, modification et suppression
+
 69.	Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
+
 70.	Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
+
 71.	Donner la définition des mots suivants :
 a.	Entité
 b.	Relation
 c.	Cardinalité
 d.	Clé primaire / clé étrangère
+
 72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
+
 73.	Qu’est-ce qu’une base de données ?
+
 74.	Définir les notions suivantes : 
 a.	SQL
 b.	MySQL
 c.	SGBD (donner 2 exemples de SGBD)
+
 75.	Dans une base de données, les données sont stockées dans des ___. Celles-ci sont constituées de lignes appelées ___ et de colonnes appelées ___
+
 76.	Quelle est la différence entre une base de données relationnelle et non relationnelle ?
+
 77.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
+
 78.	A quoi sert une vue dans une base de données ?
+
 79.	Qu’est-ce que l’intégrité référentielle dans une base de données ?
+
 80.	Quelles sont les fonctions d’agrégation en SQL ?
+
 81.	Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?
+
 82.	Quelles sont les clauses qui permettent de :
 a.	Insérer un nouvel enregistrement dans une table
 b.	Modifier un enregistrement dans une table
@@ -284,6 +300,7 @@ e.	Filtrer les résultats d’une requête SQL
 f.	Trier les résultats d’une requête SELECT
 g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
 h.	Concaténer 2 chaînes de caractères 
+
 83.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
 
 ## Symfony
