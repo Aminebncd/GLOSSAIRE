@@ -249,6 +249,7 @@ Contrôleur (Controller) : Il agit comme un intermédiaire entre la vue et le mo
 7.	Qu’est-ce qu’une API ? Définir l’architecture REST  
       Reponse : Une API (Interface de Programmation d'Application) permet à différents logiciels de communiquer entre eux. L'architecture REST (Representational State Transfer) est un style d'architecture qui utilise HTTP pour accéder et manipuler des ressources sur le web, en suivant des principes comme l'utilisation de ressources identifiées par des URI et l'utilisation d'opérations standard comme GET, POST, PUT et DELETE.
 
+
 ## Modélisation - Base de données
 
 67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
